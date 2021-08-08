@@ -1,0 +1,18 @@
+{
+  "groups": [
+    {
+      "name": "db1.datasource",
+      "type": "javax.sql.DataSource",
+      "sourceType": "com.corey.springbootjpamultidb.config.Db1Config",
+      "sourceMethod": "public javax.sql.DataSource db1DataSource() "
+    },
+    {
+      "name": "db2.datasource",
+      "type": "javax.sql.DataSource",
+      "sourceType": "com.corey.springbootjpamultidb.config.Db2Config",
+      "sourceMethod": "public javax.sql.DataSource db2DataSource() "
+    }
+  ],
+  "properties": [],
+  "hints": []
+}
